@@ -1,0 +1,38 @@
+# Allowlist for 云听小电视 (yunting-tv) — everything NOT in this file answers 0.0.0.0.
+#
+# Use with:  ./sinkhole.py --mode allowlist --allow blocklist/bilibili-allowlist.txt
+#
+# This is the "only my Bilibili app gets the internet" policy. Bilibili is the only
+# thing on this TV that legitimately needs egress, so Roku's ad stack, ACR and
+# telemetry simply have nowhere to go.
+#
+# TRADE-OFFS, read before switching:
+#  - Roku OS updates, channel store, account sync and Roku search stop working.
+#    That is intended (they are ad/telemetry carriers), but it means the TV is
+#    frozen on 15.3.4 until you flip back to blocklist mode.
+#  - Bilibili rotates CDNs. *.bilivideo.com / *.hdslb.com are the stable ones;
+#    akamaized.net is deliberately NOT included because it is far too broad.
+#    If playback stalls on a specific video, check the sinkhole log for
+#    NOT-ALLOWED lines and add the host it names.
+
+# --- core API / login / metadata
+bilibili.com
+*.bilibili.com
+biliapi.net
+*.biliapi.net
+biliapi.com
+*.biliapi.com
+
+# --- media CDNs (video + danmaku assets)
+bilivideo.com
+*.bilivideo.com
+bilivideo.cn
+*.bilivideo.cn
+hdslb.com
+*.hdslb.com
+szbdyd.com
+*.szbdyd.com
+
+# --- minimal plumbing the app will otherwise complain about
+bilibili.tv
+*.bilibili.tv

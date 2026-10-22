@@ -1,0 +1,48 @@
+# The redaction table for a real device. NEVER COMMIT.
+#
+# scripts/sanitize.py reads this file; a published repo must not contain it,
+# because a repo must not contain the strings it exists to hide.
+#
+# Format:  <literal><TAB><placeholder>
+#          regex:<python-regex><TAB><placeholder>
+# Blank lines and lines starting with # are ignored.
+# Literals are applied longest-first, so a full MAC is caught before its OUI.
+
+# ---------------------------------------------------------------- device identity
+ROKU_SERIAL_GOES_HERE	ROKU_SERIAL
+ROKU_DEVICE_ID_GOES_HERE	ROKU_DEVICE_ID
+ROKU_UDN_GOES_HERE	ROKU_UDN
+ADVERTISING_ID_GOES_HERE	ADVERTISING_ID
+CLIENT_ID_GOES_HERE	CLIENT_ID
+
+# ---------------------------------------------------------------- AirPlay
+AIRPLAY_SERIAL_GOES_HERE	AIRPLAY_SERIAL
+AIRPLAY_DEVICE_ID_GOES_HERE	AIRPLAY_DEVICE_ID
+DISPLAY_UUID_GOES_HERE	DISPLAY_UUID
+
+# ---------------------------------------------------------------- MAC addresses
+ETHERNET_MAC_GOES_HERE	ETHERNET_MAC
+WIFI_MAC_GOES_HERE	WIFI_MAC
+BLUETOOTH_MAC_GOES_HERE	BLUETOOTH_MAC
+MAC_OUI_GOES_HERE	MAC_OUI
+
+# ---------------------------------------------------------------- network
+TARGET_IP_GOES_HERE	TARGET_IP
+GATEWAY_IP_GOES_HERE	GATEWAY_IP
+HOST_IP_GOES_HERE	HOST_IP_EN0
+PUBLIC_IP_GOES_HERE	PUBLIC_IP
+ISP_DOMAIN_GOES_HERE	ISP_DOMAIN
+
+# ---------------------------------------------------------------- naming
+DEVICE_DISPLAY_NAME_GOES_HERE	ROKU_TV
+DEVICE_LOCATION_GOES_HERE	ROOM
+OPERATOR_ACCOUNT_GOES_HERE	USER
+WORKSPACE_DIR_GOES_HERE	WORKSPACE
+
+# ---------------------------------------------------------------- streaming fingerprints
+BUVID_GOES_HERE	BUVID
+BILIBILI_UID_GOES_HERE	BILIBILI_UID
+
+# ---------------------------------------------------------------- regex form
+# regex:<home dir prefix>[^/\s"']+<TAB>/Users/USER
+# regex:buvid=[A-Za-z0-9]+<TAB>buvid=BUVID

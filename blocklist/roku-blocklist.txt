@@ -1,0 +1,52 @@
+# Roku ad / telemetry blocklist — derived from plugins actually present on "ROKU_TV"
+# Device: Roku TV 50R4CX (L816X), OS 15.3.4.2402, SN ROKU_SERIAL
+# Each block below cites the plugin observed via the dev console `plugins` command.
+#
+# Format: one domain per line, `#` comments. Feed to Pi-hole / AdGuard Home / dnsmasq / Unbound.
+
+# ---------------------------------------------------------------- TIER 1: ADS
+# Evidence: "Roku Ads Library, 3.29.30" (58484), "Grand Central, 26.42.12" (155883)
+ads.roku.com
+advertising.roku.com
+ads.ravm.tv
+display.ravm.tv
+# Evidence: console `r2d2_bitmaps` showed the home screen loading tile/ad art from
+# https://images.sr.roku.com/maimg/<token>.jpg/magic/... — this is the image
+# resizing service that serves sponsored tile artwork.
+images.sr.roku.com
+# Evidence: "DFP Ad Service, 2.2.2" (54383) -> Google DoubleClick for Publishers
+googleads.g.doubleclick.net
+securepubads.g.doubleclick.net
+pubads.g.doubleclick.net
+# Evidence: "Innovid Ad Renderer, 1.1.43" (794761) -> interactive/video ad renderer
+innovid.com
+*.innovid.com
+# Evidence: "BrightLineLibrary, 3.6.10" (751600) -> BrightLine interactive TV ads
+brightline.tv
+*.brightline.tv
+# Evidence: "Interactive Ads Library, 3.75.2" (260537) + "Roku Interactive Ads Library, 1.1.9" (820229)
+interactive.ads.roku.com
+# Ad-measurement / verification vendors Roku ads traffic to
+*.moatads.com
+*.adsafeprotected.com
+*.doubleverify.com
+*.imrworldwide.com
+*.scorecardresearch.com
+
+# --------------------------------------------------- TIER 2: ACR + TELEMETRY
+# Evidence: "ACR Lib Channel, 8.0.12" (98832), "AcrAddon, 10.3.3" (686402)
+#           "Roku Analytics Library, 1.5.1003" (109022)
+# ACR = Automatic Content Recognition: fingerprints what you watch and phones home.
+acr.roku.com
+*.acr.roku.com
+cooper.logs.roku.com
+logservice.roku.com
+scribe.logs.roku.com
+tracker.sr.roku.com
+data.sr.roku.com
+telemetry.roku.com
+
+# ------------------------------------- TIER 3: AGGRESSIVE (may break installs)
+# cloudservices.roku.com serves BOTH ads and channel install/update manifests.
+# Enabling this can stop new channels from installing or updating. Your call.
+# cloudservices.roku.com

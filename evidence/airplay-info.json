@@ -1,0 +1,133 @@
+{
+  "sdk": "AirPlay;3.6.0.126",
+  "pi": "AIRPLAY_DEVICE_ID",
+  "firmwareRevision": "15.34.2402",
+  "integrator": "Roku",
+  "manufacturer": "Roku",
+  "audioLatencies": [
+    {
+      "inputLatencyMicros": 0,
+      "ch": 6,
+      "type": 100,
+      "outputLatencyMicros": 150000
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "default",
+      "type": 100,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "media",
+      "type": 100,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "telephony",
+      "type": 100,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "speechRecognition",
+      "type": 100,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "alert",
+      "type": 100,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "type": 101,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "default",
+      "type": 101,
+      "outputLatencyMicros": 0
+    },
+    {
+      "inputLatencyMicros": 0,
+      "audioType": "media",
+      "type": 102,
+      "outputLatencyMicros": 0
+    }
+  ],
+  "keepAliveLowPower": true,
+  "firmwareBuildDate": "Sep  7 2026",
+  "operatingSystem": "RokuOS",
+  "model": "L816X",
+  "playbackCapabilities": {
+    "supportsUIForAudioOnlyContent": false,
+    "fairPlayCDMPluginVersion": "fairplay-4.9.21",
+    "supportsFPSSecureStop": false,
+    "webAppVersion": "80.141.0",
+    "fairPlayLibVersion": "fairplay-4.9.21",
+    "webEngineVersion": "1.0.1 (mac64cocoa-4)",
+    "supportsOfflineHLS": false,
+    "supportsAVMetrics": true,
+    "hlsJSVersion": "4.0.16",
+    "webEngineName": "Apple App Engine",
+    "supportsIntegratedTimeline": false,
+    "supportsInterstitials": true,
+    "supportsAirPlayVideoWithSharePlay": true
+  },
+  "serialNumber": "AIRPLAY_SERIAL",
+  "nameIsFactoryDefault": false,
+  "hardwareRevision": "PVT1",
+  "keepAliveSendStatsAsBody": true,
+  "featuresEx": "0Ip/AEbPiwNACA",
+  "statusFlags": 580,
+  "deviceID": "AIRPLAY_DEVICE_ID",
+  "displays": [
+    {
+      "widthPixelsMax": 3840,
+      "HDRInfo": {
+        "codecStrings": [
+          "hev1.02.51"
+        ],
+        "type": 2,
+        "HDRMode": "HDR10",
+        "receiverHDRCapability": "4k60"
+      },
+      "widthPixels": 1920,
+      "HDRSupportedModes": [
+        {
+          "codecStrings": [
+            "hev1.02.51"
+          ],
+          "type": 2,
+          "HDRMode": "HDR10",
+          "receiverHDRCapability": "4k60"
+        },
+        {
+          "codecStrings": [
+            "hev1.01.51",
+            "avc1.64002a"
+          ],
+          "type": 0,
+          "HDRMode": "SDR",
+          "receiverHDRCapability": "4k60"
+        }
+      ],
+      "heightPixels": 1080,
+      "heightPixelsMax": 2160,
+      "uuid": "DISPLAY_UUID",
+      "maxFPS": 60
+    }
+  ],
+  "build": "40.00",
+  "PTPInfo": "AirPlay;3.6.0.126",
+  "protocolVersion": "1.1",
+  "sourceVersion": "377.40.00",
+  "features": 255525703439583952,
+  "activeInterfaceType": 0,
+  "volumeControlType": 3,
+  "name": "ROKU_TV"
+}

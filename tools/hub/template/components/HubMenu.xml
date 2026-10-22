@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<component name="HubMenu" extends="Scene">
+    <interface>
+        <field id="chosen" type="string" value="" />
+    </interface>
+    <script type="text/brightscript" uri="pkg:/components/HubMenu.brs" />
+    <children>
+        <Label translation="[120,90]" text="Hub" font="font:LargeSystemFont" color="0xFFFFFFFF" />
+        <LabelList id="menu" translation="[120,180]" itemSpacing="[0,28]" />
+    </children>
+</component>

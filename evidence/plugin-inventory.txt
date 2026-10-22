@@ -1,0 +1,55 @@
+> --C + S - -                 72728 [usg     0] [ref  0]       4K Screensaver, 2.5.3
+ F-C + S M S6                98832 [usg     0] [ref  0] cmpl  ACR Lib Channel, 8.0.12
+ F-C + S M S6               686402 [usg     0] [ref  0]       AcrAddon, 10.3.3
+ F-C + N - S6               586995 [usg     0] [ref  1]     * AirPlay, 6.69.540
+ F-C + N M S6               600835 [usg     0] [ref  0]     * AirPlay Daemon, 6.69.540
+ --C + S - -                  5534 [usg     0] [ref  0]       Analog Clock, 1.1.2
+ F-C + N - Sz               551012 [usg     0] [ref  0]       Apple TV, 17.0.28
+ F-C + S - S6               751600 [usg     0] [ref  1]     * BrightLineLibrary, 3.6.10
+ F-C + N - S6               557456 [usg     1] [ref  0]       cobaltlib, 2.26.14
+ F-C + S M S6                54383 [usg     0] [ref  0] cmpl  DFP Ad Service, 2.2.2
+ --C + S - -                  5533 [usg     0] [ref  0]       Digital Clock, 1.1.2
+ F-C + S M S6               155883 [usg     0] [ref  4] cmpl* Grand Central, 26.42.12
+ F-C + S - S6               794761 [usg     0] [ref  1]     * Innovid Ad Renderer, 1.1.43
+ F-C + S M S6               260537 [usg     0] [ref  0]       Interactive Ads Library, 3.75.2
+ F-C + N - Sz               585677 [usg     0] [ref  1]     * lib-Luna, 17.0.28
+ F-C + S M S6               632095 [usg     0] [ref  2]     * libfairplay, 1.0.133
+ F-C + S M S6               632051 [usg     3] [ref  3]     * libwidevine, 1.0.1287
+ F-C + S M S6               779845 [usg     0] [ref  0] cmpl  Live TV Input, 26.40.8
+ F-- R S - Z                278897 [usg     0] [ref  0]       Logo Rain, 1.0.0
+ F-- R S - Z             native-ui [usg     0] [ref  0] cmpl* Native UI, 1.0.1
+ F-C + S - S6               693751 [usg     2] [ref  0] cmpl* Playlet, 0.47.2
+ F-- R S - Z    screensaver_backlight [usg     0] [ref  0]       Power Saver, 1.1.0
+ F-C + S M S6                58484 [usg     0] [ref  5] cmpl* Roku Ads Library, 3.29.30
+ F-C + S M S6               109022 [usg     0] [ref  0]       Roku Analytics Library, 1.5.1003
+ F-C + S M S6               639619 [usg     0] [ref  0]       Roku AV Sync, 1.1.1
+ F-C + N - S6               262399 [usg     0] [ref  1]     * Roku Browser, 104.11.33
+ F-C + S M S6                55545 [usg     0] [ref  0] cmpl* Roku City ™, 7.3.102
+ F-C + S M S6                43508 [usg     0] [ref  0]       Roku Content Player, 1.6.10
+ F-C + S M S6               562859 [usg     0] [ref  0]     * Roku Dynamic Menu, 26.40.12
+ F-C + N M S6               173735 [usg     0] [ref  0]       Roku Ecosystem, 9.3.4
+ F-C + N - Sz               631467 [usg     0] [ref  1]     * Roku Engine, 15.30.5013
+ --C + S - -                820229 [usg     0] [ref  0]       Roku Interactive Ads Library, 1.1.9
+ F-C + S M Sz               594971 [usg     0] [ref  0]       Roku Legal Agreements, 2.2.10
+ F-- K S - Z          mfg_app_fptv [usg     0] [ref  0]       Roku Manufacturing App, 2.2.16026
+ F-- R S - Z          roku_mfg_lib [usg     0] [ref  0]       Roku Manufacturing Library, 1.2.20052
+ F-C + S M Z                611444 [usg     0] [ref  0]       Roku Microsite, 1.51.0
+ F-C + S M S6               295059 [usg     0] [ref  0] cmpl  Roku My Offers, 8.0.3
+ F-C + S M S6               596080 [usg     0] [ref  0] cmpl  Roku Pay Framework Library, 26.10.41
+ F-- R N - Sz          sdklauncher [usg     0] [ref  0]       Roku SDK Launcher, 1.0.0
+ F-C + S M S6               272343 [usg     0] [ref  0]       Roku Search GC, 10.6.10
+ F-C + S M Z                194485 [usg     0] [ref  0]       Roku Survey Channel, 1.1.3
+ F-- R S - Z       roku_tuning_app [usg     0] [ref  0]       Roku Tuning App, 2.2.15011
+ F-C + S M S6               738563 [usg     0] [ref  0]       Roku UI Data, 15.34.1590
+ F-C + N M Sz               659410 [usg     0] [ref  0] cmpl* roku-engine-service, 1.35.1387049
+ F-C + S M S6                43735 [usg     0] [ref  0]       RokuCast, 2.0.6
+ F-C + S M S6               770895 [usg     0] [ref  0]     * RokuTTS, 2.0.120
+ --C + S - -                 19977 [usg     0] [ref  0]       Spotify Music, 2.15.22
+ F-C + N M S6                22297 [usg     0] [ref  0]     * Spotify Music, 2.15.22
+ F-C + S M S6               633458 [usg     0] [ref  0]       Voice Help, 1.0.468
+ F-C + S M S6               687148 [usg     0] [ref  0]       Welcome home to Roku City™, 2.2.0
+ F-C + N - S6                  837 [usg     1] [ref  0] cmpl  YouTube, 2.26.95
+ F-- P S - Z                   dev [usg     0] [ref  0] cmpl* 云听小电视, 1.0.1
+Flash space available: 193.8 MB (203227136 bytes)
+Allowed plugin space:  379.5 MB (397905920 bytes)
+>

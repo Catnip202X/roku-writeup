@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<apps>
+	<app id="tvinput.hdmi1" type="tvin" version="1.0.0">HDMI 1</app>
+	<app id="tvinput.hdmi2" type="tvin" version="1.0.0">HDMI 2</app>
+	<app id="tvinput.hdmi3" type="tvin" version="1.0.0">HDMI 3 (eARC)</app>
+	<app id="551012" type="appl" version="17.0.28">Apple TV</app>
+	<app id="837" type="appl" version="2.26.95">YouTube</app>
+	<app id="693751" type="appl" version="0.47.2">Playlet</app>
+	<app id="22297" type="appl" version="2.15.22">Spotify Music</app>
+	<app id="tvinput.dtv" type="tvin" version="1.0.0">Live TV</app>
+	<app id="dev" type="appl" version="1.0.1">云听小电视</app>
+</apps>

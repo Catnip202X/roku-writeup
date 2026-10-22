@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<device-info>
+	<udn>ROKU_UDN</udn>
+	<serial-number>ROKU_SERIAL</serial-number>
+	<device-id>ROKU_DEVICE_ID</device-id>
+	<advertising-id>ADVERTISING_ID</advertising-id>
+	<user-profile-type>adult</user-profile-type>
+	<vendor-name>Roku</vendor-name>
+	<model-name>50R4CX</model-name>
+	<model-number>L816X</model-number>
+	<model-region>US</model-region>
+	<is-tv>true</is-tv>
+	<is-stick>false</is-stick>
+	<screen-size>50</screen-size>
+	<panel-id>7</panel-id>
+	<mobile-has-live-tv>true</mobile-has-live-tv>
+	<ui-resolution>1080p</ui-resolution>
+	<tuner-type>ATSC</tuner-type>
+	<supports-ethernet>true</supports-ethernet>
+	<wifi-mac>WIFI_MAC</wifi-mac>
+	<wifi-driver>realtek</wifi-driver>
+	<has-wifi-5G-support>true</has-wifi-5G-support>
+	<ethernet-mac>ETHERNET_MAC</ethernet-mac>
+	<bluetooth-mac>BLUETOOTH_MAC</bluetooth-mac>
+	<supports-becp>false</supports-becp>
+	<network-type>ethernet</network-type>
+	<friendly-device-name>ROKU_TV</friendly-device-name>
+	<friendly-model-name>Roku•Roku TV</friendly-model-name>
+	<default-device-name>Roku•Roku TV - ROKU_SERIAL</default-device-name>
+	<user-device-name>ROKU_TV</user-device-name>
+	<user-device-location>ROOM</user-device-location>
+	<build-number>HXG.34E02402A</build-number>
+	<software-version>15.3.4</software-version>
+	<software-build>2402</software-build>
+	<lightning-base-build-number />
+	<ui-build-number>HXG.34E02402A</ui-build-number>
+	<ui-software-version>15.3.4</ui-software-version>
+	<ui-software-build>2402</ui-software-build>
+	<secure-device>true</secure-device>
+	<ecp-setting-mode>enabled</ecp-setting-mode>
+	<language>en</language>
+	<country>US</country>
+	<locale>en_US</locale>
+	<closed-caption-mode>Instant replay</closed-caption-mode>
+	<time-zone-auto>true</time-zone-auto>
+	<time-zone>US/Eastern</time-zone>
+	<time-zone-name>United States/Eastern</time-zone-name>
+	<time-zone-tz>America/New_York</time-zone-tz>
+	<time-zone-offset>-240</time-zone-offset>
+	<clock-format>12-hour</clock-format>
+	<uptime>137221</uptime>
+	<power-mode>PowerOn</power-mode>
+	<supports-suspend>true</supports-suspend>
+	<supports-find-remote>true</supports-find-remote>
+	<find-remote-is-possible>true</find-remote-is-possible>
+	<supports-audio-guide>true</supports-audio-guide>
+	<supports-rva>true</supports-rva>
+	<has-hands-free-voice-remote>false</has-hands-free-voice-remote>
+	<developer-enabled>true</developer-enabled>
+	<keyed-developer-id />
+	<device-automation-bridge-enabled>false</device-automation-bridge-enabled>
+	<search-enabled>true</search-enabled>
+	<search-channels-enabled>true</search-channels-enabled>
+	<voice-search-enabled>true</voice-search-enabled>
+	<supports-private-listening>true</supports-private-listening>
+	<private-listening-blocked>false</private-listening-blocked>
+	<supports-private-listening-dtv>true</supports-private-listening-dtv>
+	<supports-warm-standby>true</supports-warm-standby>
+	<headphones-connected>false</headphones-connected>
+	<supports-audio-settings>false</supports-audio-settings>
+	<expert-pq-enabled>1.0</expert-pq-enabled>
+	<supports-ecs-textedit>true</supports-ecs-textedit>
+	<supports-ecs-microphone>true</supports-ecs-microphone>
+	<supports-wake-on-wlan>true</supports-wake-on-wlan>
+	<supports-airplay>true</supports-airplay>
+	<has-play-on-roku>false</has-play-on-roku>
+	<has-mobile-screensaver>false</has-mobile-screensaver>
+	<support-url>roku.com/support</support-url>
+	<grandcentral-version>26.42.12</grandcentral-version>
+	<supports-trc>true</supports-trc>
+	<av-sync-calibration-enabled>3.0</av-sync-calibration-enabled>
+	<brightscript-debugger-version>3.5.0</brightscript-debugger-version>
+</device-info>

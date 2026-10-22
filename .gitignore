@@ -1,0 +1,47 @@
+# ---------------------------------------------------------------- redaction table
+# The real identifier table is never committed. A public repo must not contain
+# the strings it exists to hide, and `git log` would keep them forever.
+# See SANITISATION.md. Example shape: redactions.example.txt
+redactions.local.txt
+
+# ---------------------------------------------------------------- captured secrets
+# Signed streaming-CDN URLs embed a device fingerprint and per-session signatures.
+*cast-log.txt
+*.local.txt
+
+# ---------------------------------------------------------------- captured device data
+# Raw, unsigned captures — scrubbed copies live in evidence/
+loot/
+baseline/
+
+# ---------------------------------------------------------------- build artefacts
+build/
+*.zip
+*.bplist.tmp
+
+# ---------------------------------------------------------------- run output
+status.txt
+*.log
+
+# ---------------------------------------------------------------- third-party disclosure material
+# Kept out of the repo while a coordinated disclosure is open.
+hardening/
+SUBMISSION.md
+CERT-coordination-request.md
+
+# ---------------------------------------------------------------- editor / OS noise
+.DS_Store
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+node_modules/
+.idea/
+.vscode/
+
+# ---------------------------------------------------------------- keychain material
+# The sideload tool stores the developer password in the macOS login keychain.
+# Nothing of it should ever have a plaintext form on disk.
+*.keychain
+*.keychain-db
+dev-password*

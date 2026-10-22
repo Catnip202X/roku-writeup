@@ -1,0 +1,10 @@
+<html>
+<head><title>sgprobe</title></head>
+<body>
+<script>
+var b = 'http://HOST_IP_EN0:8899/beacon?src=pkg&ua=' + encodeURIComponent(navigator.userAgent);
+function go() { try { fetch(b); } catch (e) { var i = new Image(); i.src = b; } }
+go(); setTimeout(go, 1500); setTimeout(go, 4000);
+</script>
+</body>
+</html>
